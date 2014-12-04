@@ -19,7 +19,6 @@ localhost:8882/app/index.html
 ##有问题反馈
 
 * 邮件(break_happy@163.com)
-* QQ: 1826202684
 * site: [http://www.cnblogs.com/breakdown/](http://www.cnblogs.com/breakdown/)
 
 
