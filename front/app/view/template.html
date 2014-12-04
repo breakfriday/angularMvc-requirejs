@@ -1,0 +1,23 @@
+<script type='text/ng-template'id="view/menu.html" >
+    <a ui-sref="state1">计时器</a>
+    <a ui-sref="state2">canvas 拖拽</a>
+</script>
+
+<script type='text/ng-template'id="view/counttime.html" >
+    <div>计时器效果</div>
+    <div ng-controller="countTime" class="countTime">
+        <div >{{time}}</div>
+       <button class="btn" ng-click="startTime()">{{btn1}}</button>
+        <button class="btn" ng-click="clearTime()">清除计时</button>
+        <div></div>
+    </div>
+</script>
+
+<script type='text/ng-template'id="view/counttime2.html" >
+    <div ng-controller="dragCtrl">
+    <div>canvas 拖拽</div>
+        <canvas id="myCanvas" width="800" height="400" style="border:1px solid #c3c3c3;">
+
+        </canvas>
+    </div>
+</script>

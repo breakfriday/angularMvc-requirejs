@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        window.name="NG_DEFER_BOOTSTRAP!"
+    </script>
+</head>
+
+<script type="text/javascript" src="../libs/require/require.js" data-main="main.js"> </script>
+<!--<script type="text/javascript" src="../libs/require/require.js" data-main="script/appMin.js"> </script>-->
+
+<body  ng-app="webApp">
+
+
+<!-- We'll also add some navigation: -->
+<div ng-include src="'view/menu.html'"></div>
+
+<div ui-view></div>
+
+</body>
+
+</html>

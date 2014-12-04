@@ -1,0 +1,13 @@
+.countTime input {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+.countTime .btn {
+  display: inline-block;
+}
+.dragCanvas {
+  width: 900px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+}
