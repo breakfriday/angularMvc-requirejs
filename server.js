@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(multer());
 console.log(path.join(__dirname, 'front'))
-app.use(express.static(path.join(__dirname, 'front')));
+app.use(process.argv[3]||"",express.static(path.join(__dirname, 'front')));
 
 // development only
 if ('development' == app.get('env')) {
@@ -39,4 +39,11 @@ app.get('/users', user.list);*/
 
 app.listen(app.get('port'), function(){
     console.log('Express server listening on port ' + app.get('port'));
+    if(process.argv[3]){
+        console.log("http://localhost:"+app.get('port')+process.argv[3]+"/app/index.html")
+
+    }else{
+        console.log("http://localhost:"+app.get('port')+"/app/index.html")
+
+    }
 });
