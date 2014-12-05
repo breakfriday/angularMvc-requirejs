@@ -15,8 +15,8 @@ localhost:8882/app/front/index.html  生产环境 加载打包文件
 
 ####有问题反馈
 
-* 邮件(break_happy@163.com)
-* site: [http://www.cnblogs.com/breakdown/](http://www.cnblogs.com/breakdown/)
+* email: (break_happy@163.com)
+* site:  [http://www.cnblogs.com/breakdown/](http://www.cnblogs.com/breakdown/)
 
 
 ####关于作者
