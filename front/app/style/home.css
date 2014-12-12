@@ -11,3 +11,12 @@
   height: 300px;
   border: 1px solid #c3c3c3;
 }
+body {
+  background: black;
+}
+body a {
+  color: white;
+}
+body .viewUi {
+  margin-top: 20px;
+}
