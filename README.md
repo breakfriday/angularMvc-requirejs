@@ -8,7 +8,7 @@ my-angularMvc
  node ../r.js  -o built.js
 ```
 
-
+ demo:  [http://breakfriday.github.io/my-angularMvc/front/app/index1.html#/state1](http://breakfriday.github.io/my-angularMvc/front/app/index1.html#/state1)
 
 
 ####关于作者
