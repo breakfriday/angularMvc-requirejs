@@ -1,4 +1,4 @@
-my-angularMvc
+angularMvc-requirejs
 =====
 
 
@@ -8,7 +8,7 @@ my-angularMvc
  node ../r.js  -o built.js
 ```
 
- demo:  [http://breakfriday.github.io/my-angularMvc/front/app/index1.html](http://breakfriday.github.io/my-angularMvc/front/app/index1.html)
+ demo:  [http://breakfriday.github.io/angularMvc-requirejs/front/app/index1.html](http://breakfriday.github.io/angularMvc-requirejs/front/app/index1.html)
 
 
 ####关于作者
