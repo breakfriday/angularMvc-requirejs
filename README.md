@@ -8,7 +8,7 @@ angularMvc-requirejs
  node ../r.js  -o built.js
 ```
 
- demo:  [http://breakfriday.github.io/angularMvc-requirejs/front/app/index1.html](http://breakfriday.github.io/angularMvc-requirejs/front/app/index.html)
+ demo:  [http://breakfriday.github.io/angularMvc-requirejs/front/app/index.html](http://breakfriday.github.io/angularMvc-requirejs/front/app/index.html)
 
 
 ####关于作者
