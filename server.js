@@ -16,6 +16,9 @@ var app = express();
 // all environments
 app.set('port', process.argv[2] || 3000);
 app.set('views', path.join(__dirname, 'views'));
+/*app.set('views', path.join(__dirname, ''));
+app.engine('.html', require('ejs').__express);
+app.set('view engine', 'html');*/
 app.set('view engine', 'jade');
 /*app.use(favicon(""));*/
 app.use(logger('dev'));
