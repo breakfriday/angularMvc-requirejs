@@ -4,7 +4,7 @@
 var baseRoot="../."
 
 require.config({
-    "baseUrl":"./",
+    "baseUrl":"/app2/",
     "paths":{
         "cssRoot":baseRoot,
         'jquery':baseRoot+'/libs/jquery-1.7.1.min',

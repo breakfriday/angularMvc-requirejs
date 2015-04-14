@@ -27,6 +27,7 @@ define(function(require){
 
     webApp.config(['$routeProvider', '$locationProvider',
             function($routeProvider, $locationProvider) {
+                $locationProvider.html5Mode(true);
                 $routeProvider
                     .when('/state1', {
                         templateUrl: 'view/counttime.html',
@@ -38,7 +39,7 @@ define(function(require){
                     });
                 $routeProvider.otherwise({redirectTo: '/state2'});
 
-                //$locationProvider.html5Mode(true);
+
             }])
 
 
