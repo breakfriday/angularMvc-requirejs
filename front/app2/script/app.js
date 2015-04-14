@@ -36,6 +36,7 @@ define(function(require){
                         templateUrl: 'view/counttime2.html',
 
                     });
+                $routeProvider.otherwise({redirectTo: '/state2'});
 
                 //$locationProvider.html5Mode(true);
             }])
