@@ -37,12 +37,13 @@
                         return h;
                     })(node);
         };
+        addTag('script',{'src':'libs/require/require.js','data-main':'app/main.js'});
 
-        if(root=="/"){
-            addTag('script',{'src':'libs/require/require.js','data-main':'app/main.js'});
-        }else{
-            addTag('script',{'src':'libs/require/require.js','data-main':'app/script/appMin.js?v='+window.version});
-        }
+//        if(root=="/"){
+//            addTag('script',{'src':'libs/require/require.js','data-main':'app/main.js'});
+//        }else{
+//            addTag('script',{'src':'libs/require/require.js','data-main':'app/script/appMin.js?v='+window.version});
+//        }
     })();
 
 
