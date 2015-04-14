@@ -33,9 +33,7 @@ require.config({
 });
 require(["css!style/home.css"])
 require(["angular","script/app","jquery"],function(angular,app){
-    debugger
     angular.element().ready(function(){
-        debugger
         angular.resumeBootstrap([app["name"]]);
     });
 });;

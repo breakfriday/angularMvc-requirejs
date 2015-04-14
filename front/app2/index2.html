@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <base href="/app2/"/>
+
+    <script type="text/javascript">
+        window.name="NG_DEFER_BOOTSTRAP!"
+    </script>
+</head>
+<script type="text/javascript">
+    if (location.pathname.indexOf("app2") > -1) {
+        root = /(.*)app2\//.exec(location.pathname)[1];
+    } else {
+        root = location;
+    }
+
+
+    (function(){
+        function addTag(name, attributes, urlType) {
+            var el = document.createElement(name),attrName;
+            for (attrName in attributes) {
+                if(urlType != 'absUrl' && (attrName == 'href' || attrName == 'src' || attrName == 'data-main')){
+                    attributes[attrName] = root + attributes[attrName];
+                }
+                el.setAttribute(attrName, attributes[attrName]);
+            }
+            document.write(outerHTML(el));
+        };
+
+        function outerHTML(node){
+            // if IE, Chrome take the internal method otherwise build one
+            return node.outerHTML || (
+                            function(n){
+                                var div = document.createElement('div'), h;
+                                div.appendChild(n);
+                                h = div.innerHTML;
+                                div = null;
+                                return h;
+                            })(node);
+        };
+
+//        if(root=="/"){
+//            addTag('script',{'src':'libs/require/require.js','data-main':'./app2/main.js'});
+//        }else{
+//            addTag('script',{'src':'libs/require/require.js','data-main':'./app2/script/appMin.js?v='+window.version});
+//        }
+    })();
+
+
+</script>
+<script type="text/javascript" src="../libs/require/require.js" data-main="main.js"> </script>
+<!--<script type="text/javascript" src="../libs/require/require.js" data-main="script/appMin.js"> </script>-->
+
+<body  ng-app="webApp">
+asdfasdf
+
+<!-- We'll also add some navigation: -->
+<div ng-include src="'view/menu.html'"></div>
+
+<!--<div ui-view></div>-->
+<div ng-view class="view-animate"></div>
+
+</body>
+
+</html>

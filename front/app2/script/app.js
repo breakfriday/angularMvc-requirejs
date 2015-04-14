@@ -2,7 +2,6 @@
  * Created by dupenghui on 2014/12/2.
  */
 define(function(require){
-    alert(1)
     var angular= require("angular")
     var controllers=require("controller/controllers")
     /*var ngRoute=require("angularRoute")*/
