@@ -12,7 +12,7 @@ angularMvc-requirejs
 
 
 
-* blog:  [http://www.cnblogs.com/breakdown/p/3833935.html](http://www.cnblogs.com/breakdown/p/3833935.html)
+blog:  [http://www.cnblogs.com/breakdown/p/3833935.html](http://www.cnblogs.com/breakdown/p/3833935.html)
 
 
 ```javascript
