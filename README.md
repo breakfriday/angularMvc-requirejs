@@ -11,7 +11,9 @@ angularMvc-requirejs
  demo:  [http://breakfriday.github.io/angularMvc-requirejs/front/app/index.html](http://breakfriday.github.io/angularMvc-requirejs/front/app/index.html)
 
 
-####关于作者
+
+* blog:  [http://www.cnblogs.com/breakdown/p/3833935.html](http://www.cnblogs.com/breakdown/p/3833935.html)
+
 
 ```javascript
   var ihubo = {
